@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+
+{% block page_body %}
+    <h1>{{ advert.title }}</h1>
+    <div>Просмотры: {{ advert.visits_count }}</div>
+    <div>{{ advert.text }}</div>
+{% endblock %}

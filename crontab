@@ -1,0 +1,1 @@
+*/10 * * * * root /usr/local/bin/python /webapp/manage.py update_visits_count >> /var/log/cron.log 2>&1

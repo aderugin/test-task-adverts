@@ -1,0 +1,4 @@
+# Base apps
+psycopg2
+Django
+django-redis

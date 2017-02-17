@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block page_body %}
+    {% for advert in advert_list %}
+        <div>
+            <h3><a href="{{ advert.get_absolute_url }}">{{ advert.title }}</a></h3>
+            <div>Просмотры: {{ advert.visits_count }}</div>
+            <div>{{ advert.text }}</div>
+        </div>
+    {% endfor %}
+{% endblock %}
